@@ -1,0 +1,135 @@
+body{
+  background-image: url(http://www.transparenttextures.com/patterns/bright-squares.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+h1{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+.myname{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: white;
+}
+    .container{
+      width: 960px;
+      vertical-align: middle;
+}
+.name {
+    background: #4aaaa4;
+}  
+  /*#4aaaa4 is the teal color*/
+.topnav a {
+  text-align: center;
+  padding: 14px 16px;
+}
+.title {
+  color: #4aaaa4;  
+}
+.navbar-brand{
+    font-family: Arial;
+    background-color: #4aaaa4;
+    color: #4aaaa4;
+    height: 91px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    width: 22%;
+    text-align: center;
+}
+.body1 {
+    background-color: white;
+    width: 800px;
+    border: 1px solid grey;
+    padding: 50px;
+    vertical-align: middle;
+    margin: 20px;
+s}
+.paragraph{
+    font-family: Arial;
+    width: 600px;
+    margin: 0px auto;
+    padding: 20px
+    
+ }
+ .footer {
+  font-family: Arial;
+    padding: 15px;
+    background-color: #999;
+    text-align: center;
+    
+ }
+ div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.cr{
+    font-size: 0.7em;
+      color: white;  
+    }
+
+    input[type=text], select, textarea {
+      width: 88%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+    }
+    
+    label {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+    }
+    
+    input[type=submit] {
+      background-color: #666;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #777;
+    }
+    
+    .container {
+      padding: 20px;
+    }
+    .col-75 {
+      float: left;
+      width: 70%;
+      margin-top: 6px;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
